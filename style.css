@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#ccd5ae, #ffffff);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tabs {
+  width: 80%;
+  max-width: 600px;
+}
+
+.tab {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab:first-child {
+  display: block;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.grid-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categories-container {
+  display: flex;
+}
+
+.left-categories,
+.right-categories {
+  flex: 1;
+}
+
+.left-categories {
+  margin-right: 20px;
+}
+
+.right-categories {
+  margin-left: 20px;
+}
+
+.grid-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* Existing styles remain unchanged */
+
+.catalogue-selection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalogue-selection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.catalogue-columns {
+  display: flex;
+}
+
+.catalogue-column {
+  flex: 1;
+}
+
+.catalogue-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Existing styles remain unchanged */
+
+.catalogue-columns {
+  display: flex;
+}
+
+.catalogue-column {
+  flex: 1;
+  margin-right: 20px; /* Add some space between columns */
+}
+
+.catalogue-column:last-child {
+  margin-right: 0; /* Remove right margin for the last column */
+}
+
+.catalogue-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Existing styles remain unchanged */
+
+.catalogue-item.selected {
+  background-color: #b3d9ff; /* Highlight color for selected items */
+}
+/* Existing styles remain unchanged */
+
+.tab button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab button:hover {
+  background-color: #45a049;
+}
+.checkout-button {
+  text-align: right;
+}

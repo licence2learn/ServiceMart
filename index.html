@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to ServiceMart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="tabs">
+      <div class="tab" id="tab1">
+        <div class="login-box">
+          <h2>Welcome to ServiceMart</h2>
+          <form id="loginForm">
+            <input type="email" id="email" placeholder="Email Address" value="demo@servicemart.com" required>
+            <input type="password" id="password" placeholder="Password" value="demo" required>
+            <button type="submit">Sign In</button>
+          </form>
+        </div>
+      </div>
+      <div class="tab" id="tab2">
+        <div class="grid-gallery">
+          <h2>Offerings</h2>
+          <div class="categories-container">
+            <div class="left-categories">
+              <div class="grid-item" data-tab="tab3">Airport Premium (Dedicated CSM)</div>
+              <div class="grid-item">Airport Premium Lite (Designated CSM)</div>
+              <div class="grid-item">Airport Standard (Central Team)</div>
+            </div>
+            <div class="right-categories">
+              <div class="grid-item">Airline Premium (Dedicated CSM)</div>
+              <div class="grid-item">Airline Premium Lite (Designated CSM)</div>
+              <div class="grid-item">Airline Standard (Central Team)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab" id="tab3">
+        <div class="catalogue-selection">
+          <h2>Catalogue Selection</h2>
+          <a href="#" id="backToOfferings">Back to Offerings</a>
+          <div class="checkout-button">
+            <a href="#" id="proceedToCheckout">Proceed to Checkout</a>
+          </div>
+          <div class="catalogue-columns">
+            <div class="catalogue-column">
+              <div class="catalogue-item">Customer On-Boarding</div>
+              <div class="catalogue-item">Customer Success</div>
+              <div class="catalogue-item">Operational Excellence</div>
+              <div class="catalogue-item">Termination Activities</div>
+            </div>
+            <div class="catalogue-column">
+              <!-- Second column for additional items -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab" id="tab4">
+        <h2>Order Summary</h2>
+        <!-- Content for the Order Summary tab goes here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
